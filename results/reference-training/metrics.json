@@ -1,0 +1,13 @@
+{
+  "seed": 0,
+  "input_sha256": "26b38f8623766396e2ba0d1a235a283db8ed993cc32bf32fc8aab09708c3bdf2",
+  "metrics": {
+    "test_rows": 9770,
+    "accuracy": 0.8574206755373592,
+    "precision": 0.7800466744457409,
+    "recall": 0.5682107947301317,
+    "f0_5": 0.7259202953632317
+  },
+  "capital_preprocessing": "Apply log1p to capital-gain and capital-loss before pipeline inference",
+  "scope": "Income proxy classification, not measured donor response"
+}

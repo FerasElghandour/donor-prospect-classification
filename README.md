@@ -8,6 +8,15 @@ A portable train-fitted numeric/categorical preprocessing pipeline and AdaBoost 
 
 ![Implementation mechanism: Income-proxy records → Log capital values and stratify split → Train-fitted imputation and encoding → AdaBoost with shallow decision trees → Held-out classification metrics](assets/mechanism.svg)
 
+
+
+## Train and reload the classifier
+
+A new full UCI Adult run trains the income-proxy classifier with duplicate-feature-group-safe holdout, normalized UCI labels, missing-category handling and fitted-pipeline export. The 9,770-row holdout has85.74% accuracy and F0.5=0.7259.
+
+[Commands, artifacts and benchmark scope](BENCHMARKS.md) · [Versioned profiles](reproduction.json)
+
+
 ## Try a small example
 
 Generated records exercise preprocessing and fitting. Income is a proxy target in the original study; it does not measure charitable giving or donor response.
