@@ -64,3 +64,7 @@ Prepare your own inputs as described in [DATA.md](DATA.md). Tests use generated 
 ## Practical relevance and limitations
 
 Income is a proxy, not observed donation propensity or a measure of campaign lift. Demographic predictors require careful review before any targeting decision. Cross-validation operates on the training partition; the held-out comparison is a single experiment.
+
+## Reuse
+
+The original contributions listed in [LICENSING.md](LICENSING.md) are available under [MIT](LICENSE). This scoped grant preserves upstream notices and separate dataset, simulator, notebook and checkpoint terms.
